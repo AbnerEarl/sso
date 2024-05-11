@@ -54,7 +54,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 	return []k8sapi.CustomResourceDefinition{
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "authcodes.dex.coreos.com",
+				Name: "authcodes.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -71,7 +71,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "authrequests.dex.coreos.com",
+				Name: "authrequests.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -88,7 +88,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "oauth2clients.dex.coreos.com",
+				Name: "oauth2clients.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -105,7 +105,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "signingkeies.dex.coreos.com",
+				Name: "signingkeies.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -125,7 +125,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "refreshtokens.dex.coreos.com",
+				Name: "refreshtokens.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -142,7 +142,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "passwords.dex.coreos.com",
+				Name: "passwords.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -159,7 +159,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "offlinesessionses.dex.coreos.com",
+				Name: "offlinesessionses.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -176,7 +176,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "connectors.dex.coreos.com",
+				Name: "connectors.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -193,7 +193,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "devicerequests.dex.coreos.com",
+				Name: "devicerequests.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{
@@ -210,7 +210,7 @@ func customResourceDefinitions(apiVersion string) []k8sapi.CustomResourceDefinit
 		},
 		{
 			ObjectMeta: k8sapi.ObjectMeta{
-				Name: "devicetokens.dex.coreos.com",
+				Name: "devicetokens.provider.coreos.com",
 			},
 			TypeMeta: crdMeta,
 			Spec: k8sapi.CustomResourceDefinitionSpec{

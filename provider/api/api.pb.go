@@ -1717,30 +1717,30 @@ var file_api_v2_api_proto_depIdxs = []int32{
 	9,  // 3: api.CreatePasswordReq.password:type_name -> api.Password
 	9,  // 4: api.ListPasswordResp.passwords:type_name -> api.Password
 	20, // 5: api.ListRefreshResp.refresh_tokens:type_name -> api.RefreshTokenRef
-	1,  // 6: api.Dex.GetClient:input_type -> api.GetClientReq
-	3,  // 7: api.Dex.CreateClient:input_type -> api.CreateClientReq
-	7,  // 8: api.Dex.UpdateClient:input_type -> api.UpdateClientReq
-	5,  // 9: api.Dex.DeleteClient:input_type -> api.DeleteClientReq
-	10, // 10: api.Dex.CreatePassword:input_type -> api.CreatePasswordReq
-	12, // 11: api.Dex.UpdatePassword:input_type -> api.UpdatePasswordReq
-	14, // 12: api.Dex.DeletePassword:input_type -> api.DeletePasswordReq
-	16, // 13: api.Dex.ListPasswords:input_type -> api.ListPasswordReq
-	18, // 14: api.Dex.GetVersion:input_type -> api.VersionReq
-	21, // 15: api.Dex.ListRefresh:input_type -> api.ListRefreshReq
-	23, // 16: api.Dex.RevokeRefresh:input_type -> api.RevokeRefreshReq
-	25, // 17: api.Dex.VerifyPassword:input_type -> api.VerifyPasswordReq
-	2,  // 18: api.Dex.GetClient:output_type -> api.GetClientResp
-	4,  // 19: api.Dex.CreateClient:output_type -> api.CreateClientResp
-	8,  // 20: api.Dex.UpdateClient:output_type -> api.UpdateClientResp
-	6,  // 21: api.Dex.DeleteClient:output_type -> api.DeleteClientResp
-	11, // 22: api.Dex.CreatePassword:output_type -> api.CreatePasswordResp
-	13, // 23: api.Dex.UpdatePassword:output_type -> api.UpdatePasswordResp
-	15, // 24: api.Dex.DeletePassword:output_type -> api.DeletePasswordResp
-	17, // 25: api.Dex.ListPasswords:output_type -> api.ListPasswordResp
-	19, // 26: api.Dex.GetVersion:output_type -> api.VersionResp
-	22, // 27: api.Dex.ListRefresh:output_type -> api.ListRefreshResp
-	24, // 28: api.Dex.RevokeRefresh:output_type -> api.RevokeRefreshResp
-	26, // 29: api.Dex.VerifyPassword:output_type -> api.VerifyPasswordResp
+	1,  // 6: api.Provider.GetClient:input_type -> api.GetClientReq
+	3,  // 7: api.Provider.CreateClient:input_type -> api.CreateClientReq
+	7,  // 8: api.Provider.UpdateClient:input_type -> api.UpdateClientReq
+	5,  // 9: api.Provider.DeleteClient:input_type -> api.DeleteClientReq
+	10, // 10: api.Provider.CreatePassword:input_type -> api.CreatePasswordReq
+	12, // 11: api.Provider.UpdatePassword:input_type -> api.UpdatePasswordReq
+	14, // 12: api.Provider.DeletePassword:input_type -> api.DeletePasswordReq
+	16, // 13: api.Provider.ListPasswords:input_type -> api.ListPasswordReq
+	18, // 14: api.Provider.GetVersion:input_type -> api.VersionReq
+	21, // 15: api.Provider.ListRefresh:input_type -> api.ListRefreshReq
+	23, // 16: api.Provider.RevokeRefresh:input_type -> api.RevokeRefreshReq
+	25, // 17: api.Provider.VerifyPassword:input_type -> api.VerifyPasswordReq
+	2,  // 18: api.Provider.GetClient:output_type -> api.GetClientResp
+	4,  // 19: api.Provider.CreateClient:output_type -> api.CreateClientResp
+	8,  // 20: api.Provider.UpdateClient:output_type -> api.UpdateClientResp
+	6,  // 21: api.Provider.DeleteClient:output_type -> api.DeleteClientResp
+	11, // 22: api.Provider.CreatePassword:output_type -> api.CreatePasswordResp
+	13, // 23: api.Provider.UpdatePassword:output_type -> api.UpdatePasswordResp
+	15, // 24: api.Provider.DeletePassword:output_type -> api.DeletePasswordResp
+	17, // 25: api.Provider.ListPasswords:output_type -> api.ListPasswordResp
+	19, // 26: api.Provider.GetVersion:output_type -> api.VersionResp
+	22, // 27: api.Provider.ListRefresh:output_type -> api.ListRefreshResp
+	24, // 28: api.Provider.RevokeRefresh:output_type -> api.RevokeRefreshResp
+	26, // 29: api.Provider.VerifyPassword:output_type -> api.VerifyPasswordResp
 	18, // [18:30] is the sub-list for method output_type
 	6,  // [6:18] is the sub-list for method input_type
 	6,  // [6:6] is the sub-list for extension type_name

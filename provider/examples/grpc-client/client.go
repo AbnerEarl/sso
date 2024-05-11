@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc/credentials"
 )
 
-func newDexClient(hostAndPort, caPath, clientCrt, clientKey string) (api.DexClient, error) {
+func newDexClient(hostAndPort, caPath, clientCrt, clientKey string) (api.ProviderClient, error) {
 	cPool := x509.NewCertPool()
 	caCert, err := os.ReadFile(caPath)
 	if err != nil {
@@ -39,11 +39,11 @@ func newDexClient(hostAndPort, caPath, clientCrt, clientKey string) (api.DexClie
 	if err != nil {
 		return nil, fmt.Errorf("dial: %v", err)
 	}
-	return api.NewDexClient(conn), nil
+	return api.NewProviderClient(conn), nil
 }
 
-func createPassword(cli api.DexClient) error {
-	p := api.api{
+func createPassword(cli api.ProviderClient) error {
+	p := api.Password{
 		Email: "test@example.com",
 		// bcrypt hash of the value "test1" with cost 10
 		Hash:     []byte("$2a$10$XVMN/Fid.Ks4CXgzo8fpR.iU1khOMsP5g9xQeXuBm1wXjRX8pjUtO"),
